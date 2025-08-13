@@ -1,0 +1,73 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #3a7bd5 0%, #00d2ff 100%);
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #3a7bd5;
+    border-color: #3a7bd5;
+}
+
+.btn-primary:hover {
+    background-color: #2c5fb3;
+    border-color: #2c5fb3;
+}
+
+.btn-outline-primary {
+    color: #3a7bd5;
+    border-color: #3a7bd5;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3a7bd5;
+    color: white;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background-color: #3a7bd5;
+}
+
+/* Toast Notification */
+.toast {
+    opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .hero-section img {
+        margin-bottom: 2rem;
+    }
+
+    .filter-controls {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .filter-controls select,
+    .filter-controls .input-group {
+        width: 100% !important;
+    }
+}
