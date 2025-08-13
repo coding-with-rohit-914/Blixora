@@ -1,3 +1,5 @@
+### A full-stack simulation portal with user authentication, personalized dashboards, and admin management capabilities.
+
 # Blixora
 
 # Blixora Labs Simulation Portal
