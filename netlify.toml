@@ -1,0 +1,1 @@
+command = "python manage.py collectstatic --noinput" publish = "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]"
